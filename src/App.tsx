@@ -1,7 +1,7 @@
-function App(): JSX.Element {
+function App() {
 
   return (
-    <div className="App">
+    <div className="app">
       <h1>React Typescript</h1>
     </div>
   )
