@@ -2,7 +2,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>React Typescript</h1>
+      <h1>React Typescript Practice</h1>
     </div>
   )
 }
