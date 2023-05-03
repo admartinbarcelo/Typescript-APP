@@ -1,8 +1,10 @@
+import Navbar from '@/scenes/Navbar';
+
 function App() {
 
   return (
     <div className="app">
-      <h1>React Typescript Practice</h1>
+      <Navbar />
     </div>
   )
 }
