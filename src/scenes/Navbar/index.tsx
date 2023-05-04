@@ -4,6 +4,7 @@ import Logo from "@/assets/Logo.png";
 import Link from "./Link";
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
+import ActionButton from "@/shared/ActionButton";
 
 type Props = {
   isTopOfPage: boolean;
@@ -52,7 +53,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                 </div>
                 <div className={`${flexBetween} gap-8`}>
                   <p>Sign In</p>
-                  <button>Become a Member</button>
+                  <ActionButton setSelectedPage={setSelectedPage}>
+                    Become a Member
+                  </ActionButton>
                 </div>
               </div>
             ) : (
@@ -69,7 +72,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 
       {/* MENU MOBILE MODAL */}
       {!isAboveMediumScreens && isMenuToggled && (
-        <div className="fixed bottom-0 right-0 z-40 h-4 w-[300px] bg-primary-100 drop-shadow-xl">
+        <div className="fixed bottom-0 right-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl">
           {/* CLOSE ICON */}
           <div className="flex justify-end p-12">
             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
