@@ -50,7 +50,6 @@ const Home = ({ setSelectedPage }: Props) => {
           <img src={HomePageGraphic} alt="home__page__graphic" />
         </div>
       </div>
-
       {/* SPONSORS */}
       {isAboveMediumScreens && (
         <div className="h-[150px] w-full bg-primary-100 py-10">
