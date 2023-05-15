@@ -42,7 +42,7 @@ const ConctactUs = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">JOIN NOW</span>TO GET IN SHAPE
+            <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </HText>
           <p className="my-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
