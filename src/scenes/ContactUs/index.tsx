@@ -1,15 +1,15 @@
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
-import ContactUsPageGraphic from "@/assets/ConctactUsPageGraphic.png";
+import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png";
 import HText from "@/shared/HText";
 
 type Props = {
-  setSelectedPage: (selectedPage: SelectedPage) => void;
+  setSelectedPage: (value: SelectedPage) => void;
 };
 
 const ConctactUs = ({ setSelectedPage }: Props) => {
-  const inputStyles = `w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
+  const inputStyles = `mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
 
   const {
     register,
@@ -42,7 +42,7 @@ const ConctactUs = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500º">JOIN NOW</span>TO GET IN SHAPE
+            <span className="text-primary-500">JOIN NOW</span>TO GET IN SHAPE
           </HText>
           <p className="my-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
