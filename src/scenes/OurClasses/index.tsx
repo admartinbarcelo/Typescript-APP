@@ -72,7 +72,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>Our Classes</HText>
             <p className="py-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            Our classes are tailored to your goals and needs. With expert and motivating instructors, you will find the perfect class for you. Join us today and reach your full potential!
             </p>
           </div>
         </motion.div>

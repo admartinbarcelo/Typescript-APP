@@ -129,18 +129,10 @@ const Benefits = ({ setSelectedPage }: Props) => {
                   }}
                 >
                   <p className="my-5">
-                    Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                    egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                    fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                    nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                    tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                    Felis orci diam odio.
+                  Join our community today and become one of the millions of happy members getting fit! Experience the transformative power of our fitness programs and start your journey towards a healthier and stronger life. Our member-centric approach and proven results will provide you with the motivation and support you need to achieve your goals. Don't miss out, join us now!
                   </p>
                   <p className="mb-5">
-                    Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                    tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                    facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                    enim mattis odio in risus nunc.
+                  In our community, you'll find a welcoming and motivating environment where you can connect with like-minded individuals who share your goals and enjoy a rewarding fitness experience. Our trained professionals are ready to provide personalized guidance and help you maximize your results. Regardless of your fitness level, we have options for everyone, from beginners to experienced athletes. Join us and discover the joy of being fit alongside millions of satisfied members. Don't wait any longer, start your journey to a healthier lifestyle today!
                   </p>
                 </motion.div>
     

@@ -45,7 +45,7 @@ const ConctactUs = ({ setSelectedPage }: Props) => {
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </HText>
           <p className="my-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Achieve your fitness goals with us! Join now to get in shape and experience a transformative journey towards a healthier you.
           </p>
         </motion.div>
 
