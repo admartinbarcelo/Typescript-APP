@@ -13,37 +13,37 @@ const classes: Array<ClassType> = [
   {
     name: "Weightlifting Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ",
+      "Get fit and strong with Weightlifting Classes. Our expert trainers offer personalized instruction for all fitness levels. Join us and start your fitness journey today!",
     image: image1,
   },
   {
     name: "Yoga Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ",
+      "Discover the transformative power of yoga at Yoga Classes. Our experienced instructors offer classes for all levels. Join us and embark on your yoga journey today!",
     image: image2,
   },
   {
     name: "Ab Core Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ",
+      "Get ready to strengthen and tone your core at Ab Core Classes. Our expert instructors will guide you through dynamic workouts for a stronger and more defined midsection.",
     image: image3,
   },
   {
     name: "Adventure Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ",
+      "Experience thrilling adventures with Adventure Classes! Join us for outdoor activities like rock climbing, hiking, and kayaking led by experienced guides. Step out of your comfort zone and sign up today!",
     image: image4,
   },
   {
     name: "Fitness Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ",
+      "Achieve your fitness goals with Fitness Classes! Our dynamic workouts, led by certified trainers, are suitable for all levels. Join us today and start your transformation!",
     image: image5,
   },
   {
     name: "Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ",
+      "Elevate your training at Training Classes! Join us for personalized instruction and reach your fitness goals with experienced trainers. Unleash your potential and sign up today!",
     image: image6,
   },
 ];
