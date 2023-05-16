@@ -1,7 +1,7 @@
 import { BenefitType, SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 import {
-  HomeModernIcon,
+  HomeIcon,
   UserGroupIcon,
   AcademicCapIcon,
 } from "@heroicons/react/24/solid";
@@ -10,9 +10,10 @@ import Benefit from "./Benefit";
 import ActionButton from "@/shared/ActionButton";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
 
+
 const benefits: Array<BenefitType> = [
   {
-    icon: <HomeModernIcon className="h6 w-6" />,
+    icon: <HomeIcon className="h6 w-6" />,
     title: "Modern Equipment",
     description:
       "We provide modern equipment to help you achieve your fitness goals.",
